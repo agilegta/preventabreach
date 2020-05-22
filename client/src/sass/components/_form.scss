@@ -1,0 +1,62 @@
+.form {
+  &__container {
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: left;
+    max-width: 120rem;
+    padding: 10rem;
+
+    &--questions {
+      display: flex;
+    }
+    &--header {
+      color: #56e5fe;
+      padding-bottom: 1rem;
+    }
+
+    &--content {
+      color: white;
+    }
+
+    &--button {
+      display: inline-block;
+      padding: 1em 1.2em;
+      border: 0.1em solid #ffffff;
+      margin: 0 0.3em 0.3em 0;
+      width: 100%;
+
+      box-sizing: border-box;
+      text-decoration: none;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+      color: #ffffff;
+      text-align: center;
+      transition: all 0.2s;
+
+      &:hover {
+        color: #000000;
+        background-color: #ffffff;
+      }
+    }
+
+    &--subforms {
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+
+      @include media-query($small) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    @include media-query($small) {
+      padding: 3rem;
+    }
+  }
+}

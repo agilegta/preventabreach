@@ -1,0 +1,357 @@
+.streakIcon {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.smallBookIcon {
+  fill: #5429c1;
+}
+
+.torontoIcon {
+  fill: #1c2049;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.waveIcon {
+  position: absolute;
+  fill: #1c2049;
+  top: 0;
+  left: 0;
+  height: auto;
+  z-index: 1;
+}
+
+.wiresIcon {
+  width: inherit;
+  position: absolute;
+}
+
+.codingIcon {
+  height: 50rem;
+  &-1,
+  &-2 {
+    fill: #d6d8e5;
+  }
+  &-1 {
+    opacity: 0.4;
+  }
+  &-3 {
+    fill: #b1b6c4;
+  }
+  &-4 {
+    fill: #c4c7d6;
+  }
+  &-5 {
+    fill: #38226d;
+  }
+  &-6 {
+    fill: #9c73ff;
+  }
+  &-7 {
+    fill: #8c50ff;
+  }
+  &-8 {
+    fill: #ffcea9;
+  }
+  &-9 {
+    fill: #ededed;
+  }
+  &-10 {
+    fill: #e5e5e5;
+  }
+  &-11 {
+    fill: #f4f4f4;
+  }
+  &-12 {
+    fill: #bfbfbf;
+  }
+  &-13 {
+    fill: #3a2c6d;
+  }
+  &-14 {
+    fill: #dceeff;
+  }
+  &-15 {
+    fill: #dbdbdb;
+  }
+  &-16 {
+    fill: #1e3779;
+  }
+  &-17 {
+    fill: #031f60;
+  }
+  &-18 {
+    fill: #b1b4c4;
+  }
+  &-19 {
+    fill: #9ea1af;
+  }
+  &-20 {
+    fill: #e4e7f2;
+  }
+  &-21 {
+    fill: #201d38;
+  }
+  &-22 {
+    opacity: 0.3;
+  }
+  &-23 {
+    fill: #a298e2;
+  }
+  &-24 {
+    fill: #f4ce2c;
+  }
+  &-25 {
+    fill: #4d3bff;
+  }
+  &-26 {
+    fill: #ff8657;
+  }
+  &-27 {
+    fill: #c33afc;
+  }
+  &-28 {
+    fill: #a6ce28;
+  }
+  &-29 {
+    fill: #bcd64d;
+  }
+  &-30 {
+    fill: #28221c;
+  }
+  &-31 {
+    fill: #fff;
+    opacity: 0.07;
+  }
+  &-32 {
+    fill: #8da01f;
+  }
+  &-33 {
+    fill: #99b524;
+  }
+  &-34 {
+    fill: #e4e6ef;
+  }
+}
+
+.bookIcon {
+  height: 35rem;
+  margin-left: -20rem;
+  &-1 {
+    fill: #d6d8e5;
+    opacity: 0.4;
+  }
+  &-2 {
+    fill: #252935;
+  }
+  &-3 {
+    fill: #2b303f;
+  }
+  &-4 {
+    fill: #3a4151;
+  }
+  &-5 {
+    fill: #e6e9ef;
+  }
+  &-6 {
+    fill: #f4f6f9;
+  }
+  &-7 {
+    fill: #e8a30a;
+  }
+  &-8 {
+    fill: #f9cb07;
+  }
+  &-9 {
+    fill: #ab210d;
+  }
+  &-10 {
+    fill: #ff582b;
+  }
+  &-11 {
+    fill: #a5ad00;
+  }
+  &-12 {
+    fill: #b9cc00;
+  }
+  &-13 {
+    opacity: 0.1;
+  }
+  &-14 {
+    fill: #3a2c6d;
+  }
+  &-15 {
+    fill: #ffcea9;
+  }
+  &-16 {
+    fill: #f4f4f4;
+  }
+  &-17 {
+    fill: #38226d;
+  }
+  &-18 {
+    fill: #9c73ff;
+  }
+  &-19 {
+    fill: #8c50ff;
+  }
+  &-20 {
+    fill: #ededed;
+  }
+  &-21 {
+    fill: #bfbfbf;
+  }
+  &-22 {
+    fill: #e5e5e5;
+  }
+}
+
+.profileBuildingIcon {
+  height: 35rem;
+
+  &-1 {
+    fill: #dadce5;
+  }
+  &-2 {
+    fill: #f2f5f9;
+  }
+  &-3 {
+    fill: #b9cc00;
+  }
+  &-4 {
+    fill: #3a3a3a;
+  }
+  &-5 {
+    fill: #fff;
+  }
+  &-6 {
+    fill: #00e7ff;
+  }
+  &-7 {
+    fill: #443d31;
+  }
+  &-8 {
+    fill: #c6e800;
+  }
+  &-9 {
+    fill: #e4e7ef;
+  }
+  &-10 {
+    fill: #edf1f9;
+  }
+  &-11 {
+    fill: #6675ff;
+  }
+  &-12 {
+    fill: #84a6f4;
+  }
+}
+
+.resourcesIcon {
+  height: 35rem;
+  &-1,
+  &-15,
+  &-4 {
+    fill: #d6d8e5;
+  }
+  &-1 {
+    opacity: 0.4;
+  }
+  &-2 {
+    fill: #b1b4c4;
+  }
+  &-3 {
+    fill: #9ea2b2;
+  }
+  &-5 {
+    fill: #f4f4f4;
+  }
+  &-6 {
+    fill: #9acc12;
+  }
+  &-7 {
+    fill: #e8bc05;
+  }
+  &-8 {
+    fill: #ef6848;
+  }
+  &-9 {
+    fill: #be4aed;
+  }
+  &-10 {
+    fill: #543526;
+  }
+  &-11 {
+    fill: #1b96ea;
+  }
+  &-12 {
+    fill: #ff5050;
+  }
+  &-13 {
+    fill: #32cec3;
+  }
+  &-14 {
+    fill: none;
+    stroke: #d6d8e5;
+    stroke-miterlimit: 10;
+    stroke-width: 1.42px;
+  }
+  &-15 {
+    opacity: 0.3;
+  }
+  &-16 {
+    fill: #dd990e;
+  }
+  &-17 {
+    fill: #f9cb07;
+  }
+  &-18 {
+    fill: #cc8b09;
+  }
+  &-19 {
+    fill: #e8a30a;
+  }
+  &-20 {
+    fill: #f9ca06;
+  }
+  &-21 {
+    fill: #3a2c6d;
+  }
+  &-22 {
+    fill: #ffcea9;
+  }
+  &-23 {
+    fill: #38226d;
+  }
+  &-24 {
+    fill: #9c73ff;
+  }
+  &-25 {
+    fill: #8c50ff;
+  }
+  &-26 {
+    fill: #ededed;
+  }
+  &-27 {
+    fill: #d33d3d;
+  }
+  &-28 {
+    fill: #ff4d4d;
+  }
+  &-29 {
+    fill: #2b303f;
+  }
+}
+
+.dribbbleIcon {
+  &-1 {
+    fill: #e84c88;
+  }
+  &-2 {
+    fill: #fff;
+  }
+}

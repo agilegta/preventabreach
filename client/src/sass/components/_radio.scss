@@ -1,0 +1,11 @@
+.radio {
+  padding-right: 1rem;
+  padding-top: 1rem;
+  &__container {
+    display: flex;
+  }
+
+  label {
+    padding: 1rem;
+  }
+}

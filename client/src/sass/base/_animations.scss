@@ -1,0 +1,29 @@
+@keyframes random {
+  15% {
+    fill: #c33afc;
+  }
+  30% {
+    fill: #4d3bff;
+  }
+  45% {
+    fill: #f4ce2c;
+  }
+  60% {
+    fill: #a298e2;
+  }
+  75% {
+    fill: #ff8657;
+  }
+}
+
+@keyframes bounce-2 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
