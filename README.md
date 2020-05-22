@@ -4,7 +4,7 @@ Prevent a breach is a GTA DevSecOps initiative with the main objective of teachi
 
 ## Contributing
 
-The application is a very simple React/Node [project](https://databreach-checker.herokuapp.com/) right now in its first version. Below is a simple overview of the deployment process and app architecture, ask yourselves the questions below the images and see if you can contribute to the project by creating pull requests or issues.
+The application is a very simple React/Node [project](https://databreach-checker.herokuapp.com/) right now in its first version. Below is a simple overview of the deployment process and app architecture, ask yourselves the questions below the image and see if you can contribute to the project by creating pull requests or issues.
 
 ![Deployment Workflow](https://user-images.githubusercontent.com/32272146/82715228-2c2a8900-9c60-11ea-8a6d-c9da164abb0f.PNG)
 
@@ -21,6 +21,22 @@ From a **development standpoint**, how can we improve the current application ar
 From an **operations standpoint**, how can we improve the current application from a usage perspective? (i.e think dependency management and containers)
 
 From a **security standpoint**, how can we improve the security around the application? (i.e create a checklist that we can follow)
+
+## Quick Start
+
+Clone the app to your local environment
+
+```
+git clone https://github.com/agilegta/preventabreach.git
+```
+
+Checkout a new branch
+
+```
+git checkout -b "test"
+```
+
+Do your changes and then commit and create a pull request!
 
 ## License
 
